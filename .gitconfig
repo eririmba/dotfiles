@@ -1,6 +1,5 @@
 [core]
     editor = vim
-	excludesfile = /Users/livesense/.gitignore
 [user]
     name = Eri Fukuda
 [alias]
