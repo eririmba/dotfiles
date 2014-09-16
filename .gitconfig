@@ -1,0 +1,16 @@
+[core]
+    editor = vim
+	excludesfile = /Users/livesense/.gitignore
+[user]
+    name = Eri Fukuda
+[alias]
+    gl = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --all --abbrev-commit --date=relative --graph -20
+    ga = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --all --abbrev-commit --date=relative --graph
+    br = branch
+    st = status
+    co = checkout
+    ci = commit
+    pl = pull --rebase
+[color]
+	ui = auto
+
